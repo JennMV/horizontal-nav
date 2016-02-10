@@ -1,8 +1,47 @@
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Bevan";
+  color: #fff;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #797770;
+  padding: 1em;
+  border-top: 3px solid #595751;
+  border-bottom: 3px solid #595751;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.info-boxes {
+  font-family: Arial, sans-serif;
+  list-style-type: none;
+  margin: 0;
+}
+
+.info-boxes li {
+  margin: 0 0 .3em 0;
+  padding: .7em 1em .7em 1em;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #6b3d36;
+}
+
+.info-boxes a:hover {
+  background-color: #ef3933;
+  margin: 0;
+  padding: .7em 1em .7em 1em;
+  border-radius: 5px;
 }
